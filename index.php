@@ -114,7 +114,7 @@
 
 			function validateFormOnSubmit(theForm) {
 					var form = document.createElement("form");
-
+					document.body.append(form);
 					form.action = "shipping.php";
 					form.method = "post";
 
